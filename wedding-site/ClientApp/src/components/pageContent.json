@@ -1,0 +1,45 @@
+﻿    
+content:{}
+
+function updateContent(props) {
+    switch (props.id) {
+        case "home":
+            return (
+                <div>
+                    <p>Odensvi kyrka 16:00</p>
+                    <p>Adress ...</p>
+                    <br />
+                    <p>
+                        Festen kommer att hållas på{" "}
+                        <a href="http://www.xn--tngstagrd-v2ar.se/">Tängsta gård</a>
+                    </p>
+                    <br />
+                    <p>
+                        <a link to="./Sleeping">
+                            Sovplats
+                            </a>{" "}
+                            finns i begränsat antal ( först till kvarn! )
+                        </p>
+                    <br />
+                    <p>Klädsel: TBD</p>
+                    <br />
+                    <p>Kontaktuppgifter</p>
+                    <br />
+                    <p>Tia</p>
+                    <p>Tel: 0761614922, Email: tia.kennerberg@gmail.com</p>
+                    <br />
+                    <p>John</p>
+                    <p>Tel: 0722495171, Email: john.sandstrom@hotmail.se</p>
+                </div>
+            );
+            break;
+        case "rsvp":
+            break;
+        case "sleeping":
+            break;
+        case "speech":
+            break;
+        case "gifts":
+            break;
+        default:
+    }

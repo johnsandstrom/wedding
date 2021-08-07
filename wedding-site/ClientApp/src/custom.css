@@ -1,0 +1,64 @@
+/* Provide sufficient contrast against white background */
+/*html {
+    background-image: url('../src/images/shutterstock.jpg');
+}*/
+
+body {
+    background-color: rgba(34, 37, 221, 0.8);
+}
+
+img {
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+}
+
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+html {
+    height: 100%;
+    background-image: url("images/leafsImage.jfif");
+    background-repeat: repeat;
+}
+
+header {
+    background-color: rgba(34, 37, 221, 0.753);
+    text-align: center;
+    margin: 0;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+}
+
+body {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 0;
+    padding-bottom: 142px;
+    min-height: calc(100% + 142px);
+}
+
+footer {
+    color: white;
+    text-align: center;
+    background-color: rgba(34, 37, 221, 0.904);
+    left: 0;
+    width: 100%;
+    height: 142px;
+    position: absolute;
+    bottom: 0;
+    padding-top: 50px;
+    font-family: 'Amatic SC', cursive;
+}

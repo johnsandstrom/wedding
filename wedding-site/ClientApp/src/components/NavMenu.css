@@ -1,0 +1,35 @@
+﻿.navbar-nav {
+    padding: 0 100px;
+}
+
+.header {
+    background-color: rgba(34, 37, 221, 0.753);
+    top:0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+}
+
+html {
+    font-size: 14px;
+    margin: 0;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+
+  .header {
+      background-color: rgba(34, 37, 221, 0.753);
+      top: 0;
+      margin: 0;
+      padding: 0;
+      font-family: 'Amatic SC', cursive;
+      font-size: 40px;
+  }
+}
+
+.box-shadow {
+    /*box-shadow: 0 0.1px 120px -120px rgb(228, 228, 255);*/
+}
