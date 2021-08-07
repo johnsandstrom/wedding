@@ -77,7 +77,7 @@ function SetPageContent(props) {
         return (
             <div>
                 <p>
-                    <a>Sovplats kostar 300:- för en natt & 500:- för två nätter.</a>
+                    <a>Sovplats kostar 350:- för en natt & 500:- för två nätter.</a>
                     <br /><br />
                     <a> Det finns ett begränsat antal sovplatser i festlokalen och behöver därför förbokas.
                         Det är först till kvarn som gäller. <br /><br /> Hotell finns ca. 15 minuter
